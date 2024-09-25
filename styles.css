@@ -1,0 +1,506 @@
+/* Styles for the index Page */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D6F9D6;
+    margin: 0; /* Removes default margin */
+    padding: 30px;
+    text-align: center; /* Centers text and inline elements */
+}
+
+/* Styles for the audio player */
+audio {
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+/* Styles for media controls */
+#controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Styles for buttons */
+button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: black;
+    color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Progress bar styles */
+.progress-bar-wrapper {
+    width: 50%;
+    height: 3px; /* Decrease this value to make it thinner */
+    background: #77DD77;
+    border-radius: 20px;
+    margin: 10px auto; /* Centers the wrapper horizontally */
+}
+
+/* Styles for the actual progress bar */
+.progress-bar {
+    height: 100%; /* This will match the height of the wrapper */
+    width: 0;
+    background: red;
+    border-radius: 5px;
+}
+
+/* Styles for the lyrics section */
+#lyrics {
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center; /* Centers the lyrics text */
+    white-space: pre-line;
+}
+
+/* Styles for English lyrics */
+#en-lyrics {
+    direction: ltr;
+    margin-bottom: 10px;
+    font-size: 25px; /* Increased font size for English lyrics */
+}
+
+/* Styles for Hebrew lyrics */
+#he-lyrics {
+    direction: rtl;
+    font-family: 'Arial', sans-serif;
+    font-size: 35px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Styles for the header */
+header {
+    background-color: black;
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Styles for the Motivation Home Page */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D6F9D6;
+    margin: 0; /* Removes default margin */
+    padding: 30px;
+    text-align: center; /* Centers text and inline elements */
+    color: black; /* Default text color */
+}
+
+/* Styles for the home */
+header {
+    text-align: center; /* Centers the text */
+    margin-bottom: 30px; /* Adds space below the header */
+    background-color: transparent; /* Set background color to transparent */
+}
+
+/* Remove background color from the header */
+header h1, header h2 {
+    margin: 0; /* Removes default margin */
+}
+
+/* Optionally, you can style the font and colors */
+header h1 {
+    font-size: 36px; /* Adjust size as needed */
+    color: black; /* Change to your preferred color */
+}
+
+header h2 {
+    font-size: 54px; /* Adjust size as needed */
+    color: black; /* Change to your preferred color */
+}
+
+/* Navigation button styles */
+.nav-button {
+    position: absolute; /* Allows positioning */
+    top: 20px; /* Vertical alignment */
+    background-color: black; /* Button background */
+    color: red; /* Button text color */
+    border: 1px solid red; /* Red border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px 15px; /* Button padding */
+    cursor: pointer; /* Pointer on hover */
+}
+
+/* Styles for the Home button */
+#homeButton {
+    left: 60px; /* Position it on the left */
+}
+
+/* Styles for the Next button */
+#nextButton {
+    right: 60px; /* Position it on the right */
+}
+
+}
+
+/* Main content styles */
+main {
+    margin-top: 30px; /* Space below the header */
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+
+/* Styles for the motivation introduction */
+#motivation-intro {
+    font-size: 30px; /* Change this value to your preferred size */
+    line-height: 1.5; /* Optional: increases line spacing */
+}
+
+
+
+
+/* Styles for the Lesson 1 heading */
+.lesson-heading {
+    font-family: 'Courier New', monospace; /* Change to your preferred font */
+    font-size: 22px; /* Adjust font size as needed */
+    color: red; /* Change to your preferred color */
+    text-align: left; /* Align the heading to the left */
+    transform: rotate(-7deg); /* Rotate the heading */
+    margin-bottom: 2px; /* Reduce space below the heading */
+    margin-top: 0; /* Remove top margin */
+    padding-left: -600px; /* Increase padding to move left */
+}
+
+/* Styles for lesson1-2 Page */
+.lesson-text {
+    font-family: 'Arial', sans-serif; /* Change to your preferred font */
+    font-size: 20px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    line-height: 1.2; /* Line height for readability */
+    text-align: left; /* Align text to the left */
+    padding: 0px; /* Padding around the text */
+    transform: rotate(-7deg); /* Rotate the lesson text */
+    display: inline-block; /* Allows rotation to be applied correctly */
+    margin-left: -500px; /* Adjust this value to move further left */
+    margin-top: -35px; /* Move text up a little higher */
+    width: 100%; /* Set width to ensure it takes full line */
+}
+
+
+
+
+/* Styles for Lesson #2 heading */ 
+.lesson2-heading {
+    font-family: 'Courier New', monospace; /* Preferred font */
+    font-size: 22px; /* Adjust font size as needed */
+    color: red; /* Preferred color */
+    text-align: right; /* Align the heading to the right */
+    transform: rotate(5deg); /* Rotate the heading */
+    margin-bottom: 10px; /* Reduced space below the heading */
+    margin-top: -200px; /* Negative margin to pull the heading up */
+    padding-right: 200px; /* Add padding to the right */
+}
+
+/* Styles for Lesson #2 text */
+.lesson2-text {
+    font-family: 'Arial', sans-serif; /* Preferred font */
+    font-size: 20px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    line-height: 1.2; /* Line height for readability */
+    text-align: right; /* Align text to the right */
+    padding: 0px; /* Padding around the text */
+    transform: rotate(5deg); /* Rotate the lesson text */
+    display: inline-block; /* Allows rotation to be applied correctly */
+    margin-right: -250px; /* Move text a bit more to the left from the right */
+    margin-top: 20px; /* Space above the text, adjust as needed */
+    width: auto; /* Adjust width for inline-block */
+    position: relative; /* Keep positioning relative */
+}
+
+
+
+/* lesson3-4.css */
+
+/* Centering styles for the body */
+body {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+/* lesson3-4.css */
+
+/* Centering styles for the body */
+body {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+/* lesson3-4.css */
+
+/* Centering styles for the body */
+body {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+/* lesson3-4.css */
+
+/* Centering styles for the body */
+body {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+
+/* lesson3-4.css */
+
+/* Centering styles for the body */
+body {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+/* Styles for Lesson 3 Container */
+.lesson3-container {
+    display: flex; /* Flexbox for lesson 3 */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-right: 20px; /* Space between lesson 3 and lesson 4 */
+}
+
+/* lesson3-4.css */
+
+/* Centering styles for the body */
+body {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+/* Styles for Lesson 3 Container */
+.lesson3-container {
+    display: flex; /* Flexbox for lesson 3 */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-right: 20px; /* Space between lesson 3 and lesson 4 */
+}
+
+/* lesson3-4.css */
+
+/* Centering styles for the body */
+body {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+/* lesson3-4.css */
+
+/* Centering styles for the body */
+body {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+/* lesson3-4.css */
+
+
+/* Centering styles for the body */
+body {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: flex-start; /* Align items to the left */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styles for Lesson 3 Container */
+.lesson3-container {
+    display: flex; /* Flexbox for lesson 3 */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    margin-right: 30px; /* Space between lesson 3 and lesson 4 */
+    margin-left: 5px; /* Move lesson 3 container further to the left */
+    margin-top: 20px; /* Move lesson 3 down a bit */
+}
+
+/* Styles for Lesson 3 Heading */
+.lesson3-heading {
+    font-family: 'Courier New', monospace; /* Preferred font */
+    font-size: 22px; /* Adjust font size as needed */
+    color: red; /* Change to your preferred color */
+    text-align: left; /* Align the heading to the left */
+    margin-bottom: 0px; /* Smaller space below the heading */
+    margin-top: 0; /* Smaller space above the heading */
+}
+
+/* Styles for Lesson 3 Text */
+.lesson3-text {
+    font-family: 'Arial', sans-serif; /* Preferred font */
+    font-size: 20px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    line-height: 0.8; /* Smaller line height for tighter spacing */
+    text-align: center; /* Align text to the left */
+    margin: 0; /* Remove margin for tighter spacing */
+}
+
+/* Styles for Lesson 4 Container */
+.lesson4-container {
+    display: flex; /* Flexbox for lesson 4 */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    margin-left: 10px; /* Move lesson 4 further to the left */
+    margin-top: 20px; /* Adjust margin to control spacing from lesson 3 */
+}
+
+/* Styles for Lesson 4 Heading */
+.lesson4-heading {
+    font-family: 'Courier New', monospace; /* Preferred font */
+    font-size: 22px; /* Adjust font size as needed */
+    color: red; /* Change to your preferred color */
+    text-align: left; /* Align the heading to the left */
+    margin-top: 10px; /* Space above the heading */
+    margin-bottom: 5px; /* Space below the heading */
+}
+
+/* Styles for Lesson 4 Text */
+.lesson4-text {
+    font-family: 'Arial', sans-serif; /* Preferred font */
+    font-size: 20px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    line-height: 0.8; /* Smaller line height for tighter spacing */
+    text-align: center; /* Align text to the left */
+    margin: 0; /* Remove margin for tighter spacing */
+}
+
+/* Additional spacing between lessons */
+.lesson-spacer {
+    margin-top: 40px; /* Additional space between Lesson 3 and Lesson 4 */
+}
+
+
+/* Navigation button styles */
+.nav-button {
+    position: absolute;
+    top: 20px;
+    background-color: black;
+    color: red;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+
+/* lesson5-7.css */
+
+/* Centering styles for the body */
+body {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+/* Styles for Lesson 5 Heading */
+.lesson5-heading {
+    font-family: 'Courier New', monospace; /* Preferred font */
+    font-size: 22px; /* Adjust font size as needed */
+    color: red; /* Change to your preferred color */
+    text-align: center; /* Center the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Styles for Lesson 5 Text */
+.lesson5-text {
+    font-family: 'Arial', sans-serif; /* Preferred font */
+    font-size: 20px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    line-height: 1.3; /* Closer line height for readability */
+    text-align: center; /* Center text */
+    margin: 0 20px; /* Add margin for spacing */
+}
+
+/* Styles for Lesson 6 Heading */
+.lesson6-heading {
+    font-family: 'Courier New', monospace; /* Preferred font */
+    font-size: 22px; /* Adjust font size as needed */
+    color: red; /* Change to your preferred color */
+    text-align: center; /* Center the heading */
+    margin-top: 20px; /* Space above the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Styles for Lesson 6 Text */
+.lesson6-text {
+    font-family: 'Arial', sans-serif; /* Preferred font */
+    font-size: 20px; /* Adjust font size as needed */
+    color: #444; /* Text color */
+    line-height: 1.0; /* Closer line height for readability */
+    text-align: center; /* Center text */
+    margin: 0 20px; /* Add margin for spacing */
+}
+
+/* Styles for Lesson 7 Heading */
+.lesson7-heading {
+    font-family: 'Courier New', monospace; /* Preferred font */
+    font-size: 22px; /* Adjust font size as needed */
+    color: red; /* Change to your preferred color */
+    text-align: center; /* Center the heading */
+    margin-top: 20px; /* Space above the heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Styles for Lesson 7 Text */
+.lesson7-text {
+    font-family: 'Arial', sans-serif; /* Preferred font */
+    font-size: 20px; /* Adjust font size as needed */
+    color: #555; /* Text color */
+    line-height: 1.3; /* Closer line height for readability */
+    text-align: center; /* Center text */
+    margin: 0 20px; /* Add margin for spacing */
+}
+
+
+
